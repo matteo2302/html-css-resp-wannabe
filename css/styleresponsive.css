@@ -5,3 +5,34 @@
     padding: 0 20px;
   }
 }
+@media all and (max-width: 480px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .row {
+    flex-direction: column;
+    padding-bottom: 12px;
+  }
+  .why-us .col-left {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .why-us .col-right {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .lessons .col {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .steps .col {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
